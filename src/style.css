@@ -93,6 +93,7 @@ h4 {
   display: block;
   margin: 0 auto;
   text-align: center;
-  font-size: 100px;
+  padding-top: 20px;
+  font-size: 70px;
   color: black;
 }
