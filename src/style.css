@@ -85,3 +85,12 @@ h4 {
 #temperature-description {
   text-transform: capitalize;
 }
+
+.github-icon {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
