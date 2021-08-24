@@ -1,0 +1,87 @@
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+h1 {
+  font-weight: 500;
+  font-size: 30px;
+  margin-left: 15px;
+}
+h2,
+h3 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px;
+}
+h3 {
+  padding-top: 35px;
+  margin-left: 15px;
+}
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 5px;
+  padding-left: 32px;
+}
+
+.day,
+.forecast-temperature,
+.weather {
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.current-image {
+  width: 130px;
+  position: relative;
+  right: 35px;
+  bottom: 15px;
+}
+
+.image {
+  width: 43px;
+  position: relative;
+  bottom: 12px;
+  right: 20px;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
+  border-radius: 10px;
+}
+
+.card-body {
+  background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  padding: 10px;
+}
+
+.btn-outline-dark {
+  margin-left: 15px;
+}
+
+.btn-dark {
+  margin-left: 10px;
+}
+
+.celsius,
+.fahrenheit {
+  text-decoration: none;
+  font-weight: 600;
+  color: #efcc00;
+}
+
+#temperature-description {
+  text-transform: capitalize;
+}
